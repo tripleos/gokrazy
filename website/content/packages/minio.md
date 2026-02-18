@@ -6,11 +6,16 @@ aliases:
   - /userguide/install/minio/
 ---
 
-[MinIO](https://min.io/) is high-performance object storage that is API
-compatible to Amazons [Simple Storage Service (S3)](https://aws.amazon.com/de/s3/),
-but is open source and written in Go. It can be used as a building block for
-applications involving file storage and file transmission and while its native
-to the cloud, it turns out one can also use it on gokrazy. :)
+**Note:** As of February 13, 2026, MinIO is archived and no longer maintained,
+so you are probably better off using a different option. This guide is left
+online as reference for now.
+
+[MinIO](https://min.io/) was a high-performance object storage that was API
+compatible to Amazons [Simple Storage Service
+(S3)](https://aws.amazon.com/de/s3/), but was open source and written in Go. It
+could be used as a building block for applications involving file storage and
+file transmission and while its native to the cloud, it turns out one can also
+use it on gokrazy. :)
 
 ## Step 1: Install MinIO to your gokrazy device
 
